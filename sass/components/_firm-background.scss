@@ -1,0 +1,27 @@
+.container .firm-info__title {
+
+    padding-top: 200px;
+    padding-left: 250px;
+    padding-right: 250px;
+    margin-bottom: 30px;
+    font-weight: 900;
+    font-size: 44px;
+    line-height: 1.364;
+    text-align: center;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+    color: var(--white)
+}
+
+.firm-info .container {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+}
+.firm-info {
+    background:
+        linear-gradient(90deg, rgba(47, 48, 58, 0.4) 100%, rgba(47, 48, 58, 0.4) 100%),
+        url(../images/main-section/team.jpg), no-repeat;
+
+}

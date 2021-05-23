@@ -1,0 +1,76 @@
+.menu__list:not(:last-child) {
+    margin-right: 46px;
+}
+
+.menu__contact
+ {
+    font-weight: 500;
+    line-height: 1.143;
+    letter-spacing: 0.02em;
+margin-left: auto;
+    font-size: 14px;
+color: var(--mailcolor);
+&:focus {
+    fill: var(--blue);
+    color: var(--blue);
+    transition: cubic-bezier(0.4, 0, 0.2, 1) 250ms;
+
+}
+&:hover{
+    fill: var(--blue);
+    color: var(--blue);
+    transition: cubic-bezier(0.4, 0, 0.2, 1) 250ms;
+
+}
+}
+
+.menu__link {
+    color: var(--black);
+    position: relative;
+    display: inline-block;
+    &:focus {
+        color: var(--blue);
+        transition: cubic-bezier(0.4, 0, 0.2, 1) 250ms;
+    }
+    &:hover {
+        color: var(--blue);
+        transition: cubic-bezier(0.4, 0, 0.2, 1) 250ms;
+    }
+}
+
+.menu__contact .margin {
+    margin-left: 50px;
+    margin-right: 10px;
+}
+
+.header .menu__svg-icon {
+    width: 16px;
+    height: 16px;
+    margin-right: 10px;
+    &:focus {
+        transition: cubic-bezier(0.4, 0, 0.2, 1) 250ms;
+        fill: var(--blue);
+    }
+    &:hover{
+        transition: cubic-bezier(0.4, 0, 0.2, 1) 250ms;
+        fill: var(--blue);
+    }
+}
+
+.menu__link::after {
+
+    background-color: var(--blue);
+    content: "";
+    position: absolute;
+    top: 46px;
+    left: 0;
+    width: 56px;
+    height: 4px;
+    border-radius: 2px;
+    visibility: hidden;
+    transition: cubic-bezier(0.4, 0, 0.2, 1) 100ms;
+}
+
+.menu__link:hover::after {
+    visibility: inherit;
+transition: cubic-bezier(0.4, 0, 0.2, 1) 100ms;}

@@ -1,0 +1,39 @@
+.social-team {
+    display: flex;
+    justify-content: center;
+
+
+}
+
+.social-team__list .social-team__link {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 44px;
+    height: 44px;
+}
+
+.social-team__link .social-team__icon {
+    padding: 12px;
+    fill: var(--social-color);
+
+}
+
+.social-team__list .social-team__link:hover {
+    border-radius: 50%;
+    background-color: var(--blue);
+    cursor: pointer;
+    transition: cubic-bezier(0.4, 0, 0.2, 1) 250ms;
+}
+
+.social-team__link .social-team__icon:hover {
+    fill: var(--white);
+    transition: cubic-bezier(0.4, 0, 0.2, 1) 250ms;
+
+}
+.social-team__list {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 16px 0 30px;
+}

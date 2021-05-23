@@ -1,0 +1,55 @@
+.clients-title {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 36px;
+    line-height: 42px;
+    text-align: center;
+    letter-spacing: 0.03em;
+    padding: 17px 0 50px;
+}
+
+.firm-block {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding-bottom: 94px;
+}
+
+.firm-block__logo {
+    width: 170px;
+    height: 92px;
+    border: 1px solid var(--social-color);
+    box-sizing: border-box;
+    border-radius: 4px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    &:hover {
+        fill: var(--blue);
+        border-color: var(--blue);
+        cursor: pointer;
+        transition: cubic-bezier(0.4, 0, 0.2, 1) 250ms;
+
+    }
+
+}
+
+.firm-block__logo .firm-block__icon {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 170px;
+    height: 92px;
+    padding: 16px 32px;
+    fill: var(--social-color);
+    &:hover{
+        fill: var(--blue);
+        transition: cubic-bezier(0.4, 0, 0.2, 1) 250ms;
+    }
+}
+
+
