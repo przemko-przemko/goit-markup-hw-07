@@ -20,14 +20,15 @@
          line-height: 1.187;
          text-align: center;
          letter-spacing: 0.03em;
+         color:rgba(117, 117, 117, 1);
     }
 }
 .my-team {
     background-color: var(--outside);
     &__list {
-        display: flex;
-        justify-content: space-between;
-        padding-bottom: 94px;
+            display: flex;
+            justify-content: space-between;
+            padding-bottom: 94px;
     }
     &__title {
         padding-bottom: 50px;

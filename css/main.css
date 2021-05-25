@@ -98,7 +98,7 @@ img {
   line-height: 42px;
   text-align: center;
   letter-spacing: 0.03em;
-  padding: 17px 0 50px;
+  padding: 94px 0 50px;
 }
 
 .firm-block {
@@ -465,6 +465,7 @@ img {
   line-height: 1.187;
   text-align: center;
   letter-spacing: 0.03em;
+  color: #757575;
 }
 
 .my-team {
@@ -536,6 +537,12 @@ img {
 }
 
 .menu__link {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 16px;
+  letter-spacing: 0.02em;
   color: var(--black);
   position: relative;
   display: inline-block;
@@ -660,9 +667,13 @@ img {
 }
 
 .rectangle__paragraph {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
   font-size: 14px;
-  line-height: 1.714;
+  line-height: 24px;
   letter-spacing: 0.03em;
+  color: #757575;
 }
 
 .rectangle__title {
