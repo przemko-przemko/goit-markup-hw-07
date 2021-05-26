@@ -42,6 +42,10 @@
   border-bottom: solid 1px #ececec;
 }
 
+.firm-info .container {
+  width: 1600px;
+}
+
 h1,
 h2,
 h3,
@@ -162,8 +166,8 @@ img {
 
 .container .firm-info__title {
   padding-top: 200px;
-  padding-left: 250px;
-  padding-right: 250px;
+  padding-left: 452px;
+  padding-right: 452px;
   margin-bottom: 30px;
   font-weight: 900;
   font-size: 44px;
@@ -263,7 +267,7 @@ img {
           justify-content: center;
   position: absolute;
   left: 40px;
-  top: 93px;
+  top: 75px;
 }
 
 .modal__form .label {
@@ -315,7 +319,7 @@ img {
           flex-direction: column;
   position: absolute;
   left: 40px;
-  top: 457px;
+  top: 437px;
 }
 
 .modal__submit:hover {
@@ -517,7 +521,6 @@ img {
   font-weight: 500;
   line-height: 1.143;
   letter-spacing: 0.02em;
-  margin-left: auto;
   font-size: 14px;
   color: var(--mailcolor);
 }
@@ -534,6 +537,10 @@ img {
   color: var(--blue);
   -webkit-transition: cubic-bezier(0.4, 0, 0.2, 1) 250ms;
   transition: cubic-bezier(0.4, 0, 0.2, 1) 250ms;
+}
+
+.mail {
+  margin-left: 350px;
 }
 
 .menu__link {
@@ -560,7 +567,7 @@ img {
   transition: cubic-bezier(0.4, 0, 0.2, 1) 250ms;
 }
 
-.menu__contact .margin {
+.menu__contact .tel {
   margin-left: 50px;
   margin-right: 10px;
 }

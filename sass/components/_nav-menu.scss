@@ -7,7 +7,7 @@
     font-weight: 500;
     line-height: 1.143;
     letter-spacing: 0.02em;
-margin-left: auto;
+
     font-size: 14px;
 color: var(--mailcolor);
 &:focus {
@@ -22,6 +22,9 @@ color: var(--mailcolor);
     transition: cubic-bezier(0.4, 0, 0.2, 1) 250ms;
 
 }
+}
+.mail{
+    margin-left: 350px;
 }
 
 .menu__link {
@@ -44,7 +47,7 @@ color: var(--mailcolor);
     }
 }
 
-.menu__contact .margin {
+.menu__contact .tel {
     margin-left: 50px;
     margin-right: 10px;
 }
