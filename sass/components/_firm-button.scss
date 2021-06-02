@@ -1,0 +1,31 @@
+.firm-item__button {
+    cursor: pointer;
+    color: var(--black);
+    text-decoration: none;
+    text-align: center;
+    font-size: 16px;
+    font-weight: 700;
+}
+.container .firm-item__button {
+    width: 202px;
+    min-height: 50px;
+    margin-bottom: 200px;
+    padding: 10px 42px;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 1.875;
+    letter-spacing: 0.06em;
+    color: var(--black);
+    background-color: var(--white);
+    border: none;
+    box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15);
+    border-radius: 4px;
+    &:hover{
+        color: var(--white);
+        background-color: var(--blue);
+        transition: cubic-bezier(0.4, 0, 0.2, 1) 250ms;
+    }
+    &:focus{color: var(--white);
+    background-color: var(--blue);
+    transition: cubic-bezier(0.4, 0, 0.2, 1) 250ms;}
+}
