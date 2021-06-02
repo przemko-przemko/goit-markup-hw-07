@@ -20,6 +20,9 @@
     }
 }
 .footer__link {
+    @media screen and (max-width: 1199px) {
+        margin: 8px 0;
+    }
     color: rgba(255,255,255,0.6);
     &:hover{
 color: rgba(100%, 100%, 100%, 100%);
@@ -32,5 +35,8 @@ transition: cubic-bezier(0.4, 0, 0.2, 1) 250ms;
 }
 .footer__addres {
     color: var(--white);
+    @media screen and (max-width: 1199px) {
+        padding:8px 0;
+    }
 }
 

@@ -1,5 +1,10 @@
 .footer__newsletter {
-    padding-left: 78px;
+    margin-left: 70px;
+     @media screen and (max-width: 1199px) {
+         margin:0;
+
+     }
+    
     .paragraph{
         font-family: Roboto;
         font-style: normal;
@@ -9,20 +14,42 @@
         letter-spacing: 0.03em;
         text-transform: uppercase;
         color: var(--white);
+         @media screen and (max-width: 1199px) {
+             padding-bottom: 36px;
+            
+         }
     }
 }
 
-
+.footer__newsletter{
+    @media screen and (min-width: 480px) {
+        padding-top: 60px;
+    }
+    @media screen and (max-width: 1199px) {
+        display: flex;
+        justify-content: center;
+        margin:0 auto;
+    }
+}
+.footer__form{
+    display: flex;
+    flex-direction: column;
+}
 .footer__input-mail {
+    @media screen and (max-width: 1200px){
+        width: 450px;
+    }
     width: 358px;
     height: 50px;
     border: 1px solid rgba(255, 255, 255, 0.3);
     box-sizing: border-box;
     background-color: rgba(0, 0, 0, 0.15);
     border-radius: 4px;
+    color:rgba(255, 255, 255, 0.3);
 
 }
 .newsletter__button {
+    margin:0 auto;
     width: 200px;
     height: 50px;
     background: var(--blue);

@@ -1,3 +1,11 @@
+.firm-block
+ {
+     display: flex;
+     flex-wrap: wrap;
+     margin: -15px;
+     margin-bottom:60px;
+ }
+
 .clients-title {
     display: flex;
     justify-content: center;
@@ -12,12 +20,7 @@
     padding: 94px 0 50px;
 }
 
-.firm-block {
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-    padding-bottom: 94px;
-}
+
 
 .firm-block__logo {
     width: 170px;
@@ -51,5 +54,18 @@
         transition: cubic-bezier(0.4, 0, 0.2, 1) 250ms;
     }
 }
+.firm-block__logo{
+    
+        width: calc((100% - 2 * 30px) / 2);
+        margin: 15px;
 
+        @media screen and (min-width: 768px) {
+            width: calc((100% - 3 * 30px) / 3);
+        }
+
+        @media screen and (min-width: 1200px) {
+            width: calc((100% - 6 * 30px) / 6);
+        }
+    
+}
 

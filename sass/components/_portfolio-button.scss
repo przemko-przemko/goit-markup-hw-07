@@ -1,8 +1,14 @@
 .filters .container {
     display: flex;
-    padding-top: 94px;
+    padding-top: 100px;
     justify-content: center;
     padding-bottom: 26px;
+    @media screen and(min-width:1199px) {
+        padding-top: 60px;
+        
+    }
+        
+    
 }
 
 .filters__button {
@@ -40,4 +46,10 @@
 
 .filters__list-item {
     display: inline-block;
+    @media screen and (max-width: 768px) {
+        justify-content: flex-start;
+        flex-direction: row;
+        flex-wrap: wrap;
+        margin:15px 8px;
+    }
 }

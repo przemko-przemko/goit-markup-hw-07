@@ -1,3 +1,8 @@
+.whatwedo{
+      @media screen and (max-width: 1199px) {
+          display: none;
+      }
+}
 .whatwedo__list {
     display: flex;
     justify-content: space-between;

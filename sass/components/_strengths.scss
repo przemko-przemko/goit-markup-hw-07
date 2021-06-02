@@ -1,12 +1,44 @@
 .strengths__lists {
+    @media screen and (min-width: 480px) and (max-width: 767px){
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+    }
+    @media screen and (min-width: 768px) {
+        display: flex;
+        flex-wrap: wrap;
+        margin: -15px;
+    }
+    
+}
+
+.strengths__list {
+    @media screen and (min-width: 480px) {
+        width: 450px;
+        
+    }
+    width: 100%;
+    margin-bottom: 30px;
+    @media screen and (min-width: 768px) {
+        width: 354px;
+        margin: 15px;
+    }
+
+    @media screen and (min-width: 1200px) {
+        width: 270px;
+    }
+}
+
+.strengths__lists {
     display: flex;
     justify-content: space-between;
     padding: 94px 0;
 }
 
 .strengths__list {
-    display: inline-block;
-    width: 270px;
+    display: flex;
+    flex-direction: column;
     min-height: 101px;
     margin-left: 0;
     margin-right: 0;
@@ -21,7 +53,7 @@
 .strengths__list .rectangle {
     background-color: var(--outside);
     border-radius: 4px;
-    width: 270px;
+
     height: 120px;
     display: flex;
     justify-content: center;
@@ -48,5 +80,6 @@ color:rgba(117, 117, 117, 1);
     font-weight: 700;
     font-size: 14px;
     padding-top: 30px;
+    margin:0 auto;
 
 }
